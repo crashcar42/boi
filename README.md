@@ -45,7 +45,7 @@
                 <h4 style="margin:0 0 10px 0;">Stream Dashboard</h4>
                 <p style="font-size:12px; color:#aaa; margin:0 0 10px 0;">Enter IMDB Code (e.g., tt0111161 for Shawshank)</p>
                 <input type="text" id="imdb-id" placeholder="tt1234567">
-                <button onclick="loadMovie()">Launch Player</button>
+                <button onclick="frame.src = 'https://vidsrc.cc' + id;">Launch Player</button>
             </div>
             <iframe id="display-frame" src="https://pacman.com"></iframe>
         </div>
